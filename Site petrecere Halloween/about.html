@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4U</title>
+    <link rel="stylesheet" href="site.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script  src="functii.js" ></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="buttons" style="clear:both"> 
+            <button class="button" onclick="tran(1);">DESPRE NOI</button>
+            <button class="button" onclick="tran(2);">EVENIMENT</button>
+            <button class="button" onclick="tran(3);">CALENDAR</button>
+            <button class="button" onclick="tran(4);">PARTENERI MEDIA</button>
+            <img class="logo" src="imagini/logo4U_party.png">
+        </div>
+             
+    </header>
+
+    <div class="container">
+
+        <div data-page="1" class="wipe open" id="unu">
+            <p><b><h3>DESPRE NOI</h3></b></p>
+            <p>
+                Se vede că ești interesat! Ne bucurăm că ești aici. Noi suntem voluntarii SisC
+                și ne-am dori foarte mult să ni te alături la fiecare acțiune pe care o organizăm.
+                Suntem printre cele mai vechi organizații studențești, prin urmare avem tradiție în ceea ce facem,
+                fiind fondați în 1996. În fiecare an recrutăm studenți pasionați de ceea ce fac, dornici
+                să se dezvolte și să contribuie la o mai bună funționare a societății. 
+                Nu este nevoie să fii student la ASE pentru a schimba viața cuiva prin acțiuni caritabile.
+                Misiunea noastră este de a ne folosi de orice ocazie să facem lucruri bune.
+                În cadrul acestui eveniment, ne îndreptăm gândurile către alții, care, de altfel, se transformă în grijă pentru ceilalți.
+                Lucrul acesta are mereu impact asupra comunității; indiferent de căt de mult putem observa, nu realizezi mereu cum schimbi viața cuiva.
+            </p>
+            <ul class="lista">
+                <li><a href="https://web.facebook.com/profile.php?id=61552961817214&_rdc=1&_rdr" target="_blank" ><img class="iconite" src="imagini/Layer 1.png"></a></li>
+                <li><a href="https://www.instagram.com/_4u_foru_/" target="_blank"><img class="iconite" src="imagini/insta.png"></a></li>
+                <li><a href="https://www.tiktok.com/@4u_foru?is_from_webapp=1&sender_device=pc" target="_blank"><img class="iconite" src="imagini/tiktok.png"></a></li>
+            </ul>    
+        </div>
+
+        <div data-page="2" class="wipe closed" id="doi">
+            <p><b><h3> DETALII EVENIMENT</h3></b></p>
+            <p>
+                Ce-ai zice ca Halloween-ul acesta să nu mai stai acasă și să înlocuiești păturica pufoasă, 
+                ciocolată caldă și filmele de groază cu o petrecere tematică? Tentant, nu-i așa?
+                Ei bine, 4U vine cu o sugestie despre cum să te distrezi în cea mai înfricoșătoare 
+                noapte din an, dar, totodată, să faci și o faptă bună.
+                Marți, pe 31 octombrie la localul #altfel din Centrul Vechi, 4U organizează o
+                petrecere cu costume, în sprijinul copiilor cu probleme de sănătate, 
+                banii strânși pe parcursul serii urmând a fi donați în întregime asociației Inima copiilor.
+                Acum, dacă tot vei depune efortul să îți găsești costumul perfect, ce zici de un concurs de costume? 
+                Dacă te interesează, primul lucru pe care ar trebui să îl faci e să te înscrii!
+                Totodată, dacă ai posibilitatea și dorința să donezi sânge unor
+                persoane care au mare, la Centrul de transfuzie sanguină București, mare nevoie de asta, biletul de intrate este din partea noastră!
+            </p>
+            <button class="inscriere"><a href="index.html" target="_blank"><b><h3>ÎNSCRIERE</h3></b></a></button>
+        </div>
+
+        <div data-page="3" class="wipe closed" id="trei">
+            <img class="data" src="imagini/calendar.jpg">   
+        </div>
+
+        <div data-page="4" class="wipe closed" id="patru">
+            <img class="data" src="imagini/media.png">
+        </div>
+
+    </div>
+
+</body>
+</html>

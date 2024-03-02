@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular pentru petrecerea de Halloween</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="form-title">Formular de înscriere pentru petrecerea de Halloween</h1>
+        <form action="#">
+            <div class="info-participanti">
+                <div class="participanti-input-box">
+                    <label for="nume">Nume</label>
+                    <input type="text" id="nume" name="nume" placeholder="Scrieți numele de familie" required>
+
+                </div>
+                <div class="participanti-input-box">
+                    <label for="prenume">Prenume</label>
+                    <input type="text" id="prenume" name="prenume" placeholder="Scrieți prenumele" required>
+
+                </div>
+                <div class="participanti-input-box">
+                    <label for="email">Adresa de email</label>
+                    <input type="email" id="email" name="email" placeholder="ex: halloween@gmail.com">
+
+                </div>
+            </div>
+            <div class="bifat-donat">
+                <span class="doriti-donat">Doriți să participați și la donarea de sânge?</span>
+                <div class="da-nu-donat">
+                    <input type="radio" name="donat" id="da">
+                    <label for="da">Da</label>
+                    <input type="radio" name="donat" id="nu">
+                    <label for="nu">Nu</label>
+
+                </div>
+            </div>
+            <div class="bifat-concurs">
+                <span class="doriti-concurs">Doriți să participați și la concursul de costume?</span>
+                <div class="da-nu-concurs">
+                    <input type="radio" name="concurs" id="da">
+                    <label for="da">Da</label>
+                    <input type="radio" name="concurs" id="nu">
+                    <label for="nu">Nu</label>
+
+                </div>
+            </div>
+            <div class="bifat-newsletter">
+                <span class="doriti-newsletter">Sunteți de acord cu abonarea la newsletter-ul asociației noastre?</span>
+                <div class="da-nu-newsletter">
+                    <input type="radio" name="newsletter" id="da">
+                    <label for="da">Da</label>
+                    <input type="radio" name="newsletter" id="nu">
+                    <label for="nu">Nu</label>
+
+                </div>
+            </div>
+            <div class="buton-submit">
+                <input type="submit" value="Trimite formularul">
+
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
