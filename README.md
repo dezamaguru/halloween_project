@@ -1,6 +1,6 @@
 # halloween_project
 Site-ul evenimentului "Petrecere caritabilă de Halloween"
-**proiect realizat ca cerinta de recrutare pentru asociatia destudenti SiSC
+**proiect realizat ca cerinta de recrutare pentru asociatia destudenti SiSC**
 DESCRIEREA ȘI DETALIEREA PROIECTULUI 
 
 Nume proiect:„Petrecere caritabilă de Halloween”
